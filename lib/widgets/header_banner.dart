@@ -24,7 +24,7 @@ class HeaderBanner extends StatelessWidget {
                 end: Alignment.bottomRight,
               ),
               image: const DecorationImage(
-                image: AssetImage('assets/images/banner.jpg'),
+                image: AssetImage('assets/images/Untitled.png'),
                 fit: BoxFit.cover,
                 opacity: 0.35,
               ),
@@ -71,7 +71,7 @@ class HeaderBanner extends StatelessWidget {
                   // ),
                   child: const CircleAvatar(
                     radius: 42,
-                    backgroundImage: AssetImage('assets/images/banner.jpg'),
+                    backgroundImage: AssetImage('assets/images/avatar.jpg'),
                   ),
                 ),
               ),

@@ -41,15 +41,15 @@ class ProfileCard extends StatelessWidget {
               const ListTile(
                 leading: Icon(Icons.mail_outline),
                 title: Text('Email'),
-                subtitle: Text('binh231A010044@vhu.edu.vn'),
+                subtitle: Text('binh231A010044@st.vhu.edu.vn'),
               ),
               Padding(
                 padding: const EdgeInsets.fromLTRB(16, 8, 16, 12),
                 child: Row(
                   children: const [
-                    Expanded(child: StatBox(label: 'Lab đã nộp', value: '1')),
+                    Expanded(child: StatBox(label: 'Lab đã nộp', value: '5')),
                     SizedBox(width: 12),
-                    Expanded(child: StatBox(label: 'Điểm TB lab', value: '8.5')),
+                    Expanded(child: StatBox(label: 'Điểm TB lab', value: '9.5')),
                   ],
                 ),
               ),
